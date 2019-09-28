@@ -7,15 +7,19 @@
 		<link rel="stylesheet" type="text/css" href="../../header.css">
 		<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
 		<title>Clash Royale</title>
+		<script src="jquery.js"></script> 
+    <script> 
+    $(function(){
+      $("#includedContent").load("b.html"); 
+    });
+    </script> 
 	</head>
   
   <body>
 	<div class='container'>
 	<div class='juegos'>
-		<?php
-			$title='clash';
-			include "../../header.php";
-		?>
+		     <div id="includedContent"></div>
+
 		<div class='formulario'>
 			<div class='tag'>
 				<form class='' action='./clash.php' method='post'>
