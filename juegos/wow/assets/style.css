@@ -1,0 +1,29 @@
+body{ 
+	background-image: url("fondo1.jpg") ;
+	background-color: #ffffff82; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	 background-size: cover;
+}
+
+.container1{
+  float:left;
+  max-width: 950px;
+  height: auto;
+  margin:10px;
+  padding: 10px;
+  background-color: #ffffff82; 
+  border-radius:25px;
+}
+
+.container2{
+  float:left;
+  max-width: 950px;
+  height: auto;
+  margin:10px;
+  padding: 10px;
+  background-color: #ffffff82; 
+  border-radius:25px;
+}
+
+

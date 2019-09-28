@@ -1,0 +1,12 @@
+	
+	$url1="https://us.api.blizzard.com/data/wow/playable-class/1?namespace=static-us&locale=en_US&access_token=US7CMOMY5lwfQ6OLJJDG3tryMNb3tkufe2";
+     $ch1 = curl_init();
+     curl_setopt_array($ch1,[
+         CURLOPT_URL => $url1,
+         CURLOPT_RETURNTRANSFER => true,
+     ]);
+    $data1=curl_exec($ch1);
+    curl_close($ch1);
+
+    $e1=json_decode($data1);
+	

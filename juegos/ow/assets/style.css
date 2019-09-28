@@ -1,0 +1,63 @@
+body{ 
+	background-image: url("fondo3.jpg") ;
+	background-color: #ffffff82; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	 background-size: cover;
+}
+@font-face {
+ font-family: 'overwatch';
+  src: url('./font/big_noodle_titling_oblique.ttf') format('ttf'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('./font/big_noodle_titling_oblique.ttf') format('truetype');
+}
+
+
+.container{
+  font-family:"overwatch";
+  max-width: 910px;
+  height: auto;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.5098039215686274); 
+  border-radius:25px;
+}
+.form {font-size:20px;}
+.formulario {overflow: auto; max-width: 600px;width: 100%;height:auto; margin:0 auto;text-align:center;background-color:rgba(253, 253, 253, 0.5); border-radius: 10px;}
+.perfil { width: 90%;height:auto;min-height:250px; margin:0 auto;text-align:center;background-color:rgba(33, 28, 22, 0.6); border-radius: 10px 10px 0 0;}
+.perfil .won{ color:yellow ;text-align: center; width: 30%; float: left; padding-top: 20px;}
+.perfil .nivel{ color:yellow; text-align: center; width: 30%; float: left; padding-top: 20px;}
+.perfil .nombre{ color:yellow; text-align: center; width: 40%; float: left; padding-top: 20px;}
+
+.stats {overflow: auto; width: 90%;height:auto;min-height:250px; margin:0 auto;text-align:center;background-color:rgba(33, 28, 22, 0.6); border-radius: 0 0 10px 10px;}
+
+.stats .competitive{ color:rgb(255, 123, 93) ;text-align: center; width: 50%; float: left; padding-top: 20px;}
+.stats .competitive .medallas {width:100px;float:left;margin-left:30px}
+.stats .competitive .medals {float:left;}
+.stats .competitive .general {width:400px;float:left;height:200px}
+
+.stats .quickplay{ color:rgb(116, 195, 255) ;text-align: center; width: 50%; float: left; padding-top: 20px;}
+.stats .quickplay .medallas {width:100px;float:left;margin-left:30px}
+.stats .quickplay .medals {float:left;}
+.stats .quickplay .general {width:400px;float:left;height:200px}
+
+.privado{text-align:center;font-size:40px}
+
+input{border-radius:5px;background-color: rgb(191, 191, 191);font-family:overwatch;}
+input[name=name]{width:300px;font-size:20px;}
+input[name=tag]{width:50px;font-size:20px;}
+input[name=region]{width:50px;font-size:20px;}
+input[name=buscar]{width:80px;font-size:20px;}
+input[name=buscar]:hover{ background-color: rgb(150, 148, 148);cursor:pointer;}
+select{font-family:overwatch;width:50px;border-radius:5px;background-color: rgb(191, 191, 191);font-size:20px;}
+
+@media only screen
+and (max-width : 999px) {
+	
+	.stats .competitive .general {
+    width: 100%;
+
+}
+	.stats .quickplay .general {
+    width: 100%;
+}
+}
+

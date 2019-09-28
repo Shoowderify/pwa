@@ -1,0 +1,21 @@
+{
+	"name": "Api",
+	"short_name": "Api",
+	"description": "aplicacion de prueba pwa",
+	"background_color": "#fff",
+	"theme_color": "#000",
+	"orientation": "portrait",
+	"display": "standalone",
+	"start_url": "./index.html?utm_source=web_app_manifest",
+	"scope": "./",
+	"lang": "es-CL",
+	"icons": [
+		{
+		"src": "logo.png",
+		"sizes": "144x144 64x64 32x32 24x24 16x16",
+		"type": "image/png"
+		}
+		
+	]
+	
+}

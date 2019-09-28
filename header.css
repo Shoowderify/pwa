@@ -1,0 +1,332 @@
+@font-face {
+	font-family: 'main';
+	src: url('./assets/font/main.ttf') format('ttf'), 
+	url('./assets/font/main.ttf') format('truetype');
+}
+	html {
+    background: url(./assets/img/fondo.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    overflow: auto;
+}
+
+body {
+ background-size:cover;
+  background-attachment: fixed;
+ padding: 0px;
+  margin: 0px;
+  background:none !important;
+}
+@media only screen
+and (min-width : 1000px) {
+#header{
+	min-width:1024px;
+	width: 100%;
+	height: 150px;
+	/*background-color:rgba(33, 28, 22, 0.23137254901960785);*/
+	border-radius:25px;
+	display: inline-block;
+	background: url(./assets/img/header2.png) no-repeat 0px 0px;
+	background-size: contain ;
+	vertical-align: middle; line-height: 250px; position: relative; top: -1px; 
+	background-size: 1024px 150px;
+}
+.container{
+	
+	max-width: 1024px;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+	background-color: rgba(199, 199, 199, 0.51);
+	border-radius:25px;
+
+}
+.image-logo {
+    width: 90px;
+    height: 90px;
+}
+
+
+.logo {
+	left: 45%;
+	display: block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	top: -50px;
+}
+.menu-boton{display:none}
+nav{display:none}
+.menu {
+    font-family: "main";
+    width: auto;
+    height: 32px;
+    /* display: inline-block; */
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    position: relative;
+    top: -25px;
+    left: 100px;
+	float:left;
+	margin-left:20px;
+ }
+
+ .menu:hover{
+    color:#00c2ff;
+ }
+ 
+ ul, ol {
+	list-style:none;
+	margin:0;
+	padding:0;
+	cursor: pointer;
+}
+
+.menu > li {
+	float:left;
+}
+
+.menu li a {
+	background: url(./assets/menu.png)  no-repeat 0 0;
+	background-size: contain ;
+	color:#fff;
+	text-decoration:none;
+	display:block;
+}
+
+.menu li a:hover {
+
+}
+
+.menu li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.menu li:hover > ul {
+	display:block;
+}
+
+.menu li ul li {
+	position:relative;
+}
+
+.menu li ul li ul {
+	right:-140px;
+	top:0px;
+}}	
+
+
+
+ #header nav {
+	width:90%;
+	max-width:1000px;
+    margin: 11.6% auto;	
+	background:#024959;
+	background: #5a5961;
+	
+}
+#header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+ 
+#header nav ul li {
+	float:left;
+}
+ 
+#header nav ul li a {
+	color:#fff;
+	padding:20px;
+	display:block;
+	text-decoration:none;
+}
+ 
+#header nav ul li span {
+	margin-right:10px;
+}
+ 
+#header nav ul li a:active {
+	background:#000;
+}
+ 
+section {
+	padding:20px;
+}
+
+@media only screen
+and (max-width : 999px) {
+
+.container{
+	border-radius: 0px;
+	max-width: 999px;
+	height: auto;
+	margin: auto;
+	/*background-color:rgba(33, 28, 22, 0.23137254901960785);*/
+	background-color:rgba(255, 255, 255, 0.5);
+	border-radius:5px;
+	overflow: auto;
+
+}
+
+#header{
+
+	width: 100%;
+	overflow:auto;
+	background-color:rgba(173, 173, 173, 0.33);
+	
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  
+}
+.content {
+  padding-top: 0px;
+}
+
+.sticky + .juegos {
+  padding-top:  42px;
+}
+.logo {
+	display: block;
+	width: 10%;
+	float:left;
+}
+.image-logo{ width:100%;height:100%}
+
+.menu-boton {
+	display: block;
+	width: 10%;
+	float: right;
+}
+.image-boton {
+    width: 100%;
+    height: 100%;
+
+}
+
+  .menu-boton:hover{
+    color:#00c2ff;
+ }
+#header nav {
+width: 90%;
+    height: 100%;
+    left: -100%;
+    /* margin: 0; */
+    position: fixed;
+
+}
+
+#header nav ul li {
+	display:block;
+float: none;
+	border-bottom:1px solid rgba(255,255,255, .3);
+}
+
+
+
+.menu-boton .bt-menu {
+	/* display: block; */
+/* padding: 20px; */
+
+float: right;
+color: #fff;
+/* text-decoration: none; */
+font-weight: bold;
+font-size: 25px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.menu-boton span {
+	float:right;
+	font-size:40px;
+}
+
+.link-menu{display:none}
+.juego {
+	width: 30%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 10%;
+    margin-top: 5%;
+ }
+ 
+.juego .image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.juego .middle {
+    text-align: center;
+    display: block;
+	height: 50px;
+	}
+.text {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+}
+.text-starcraft{
+	font-family:"overwatch";
+	background-color: #6594fd;
+	color: white;
+	font-size: 20px;
+	border-radius:10px;
+	background-image: linear-gradient(#6594fd, #0c57ff);
+}
+.text-lol{
+	font-family:"lol";
+	background-color: #dc7541;
+	color: white;
+    font-size: 20px;
+	border-radius:10px;
+	background-image: linear-gradient(#dc7541, #542c17);
+}
+.text-wow{
+	font-family:"wow";
+	background-color: #834f11;
+	color: white;
+	font-size: 20px;
+	border-radius:20px;
+	background-image: linear-gradient(#e69534, #673e0d);
+}
+.text-overwatch{
+	font-family:"overwatch";
+	background-color: #d67c1e;
+	color: white;
+	font-size: 20px;
+	border-radius:10px;
+	background-image: linear-gradient(#e6841d, #9e5b15);
+}
+.text-diablo3 {
+	font-family:"diablo3";
+	background-color: #34384a;
+	color: white;
+	font-size: 20px;
+	border-radius:20px;
+	background-image: linear-gradient(#777880, #34384a);
+}
+.text-clashroyale {
+	font-family:"ClashRoyale";
+	background-color: #0c2bb5;
+	color: white;
+	font-size: 20px;
+	border-radius:10px;	
+	background-image: linear-gradient(#4768fb, #0c2284);
+}
+
+}

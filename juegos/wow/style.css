@@ -1,0 +1,64 @@
+body{ 
+	/*font-family:"ClashRoyale";*/
+	background-image: url("fondo1.jpg") ;
+	background-color: #000; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+/*@font-face {
+ font-family: 'ClashRoyale';
+  src: url('./font/Royale.x-font-ttf') format('ttf'), 
+   url('./font/Royale.x-font-ttf') format('truetype');
+}
+*/
+.container{	
+	/*background-color:rgba(33, 28, 22, 0.23137254901960785);*/
+	background-color: rgba(199, 199, 199, 0.26);
+}
+
+.todo {overflow: auto; width: 900px;height:auto; margin:0 auto;text-align:center;/*background-color:#211c163b;*/ border-radius: 10px;}
+
+.container1{
+	float:left;
+	overflow: auto;
+	max-width: 550px;
+	height: auto;
+	margin:10px 40px 10px 40px;
+	padding: 10px;
+	text-align:center;
+	background-color: #ffffff82; 
+	border-radius:25px;
+  }
+  
+  .container2{
+	 overflow: auto;
+	text-align:center;
+	max-width: 550px;
+	height: auto;
+	margin:10px 0px 10px 40px;
+	padding: 10px;
+	background-color: #ffffff82; 
+	border-radius:25px;
+  }
+  
+  a:link {
+	color: rgb(10, 18, 121);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(10, 18, 121);
+	text-decoration: none;
+}
+
+a:hover {
+	color:rgb(60, 73, 239);
+}
+
+a:active {
+	color: rgb(10, 18, 121);
+	text-decoration: none;
+}

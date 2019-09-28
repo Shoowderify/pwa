@@ -1,0 +1,117 @@
+body{ 
+	background-image: url("fondo.jpg") ;
+	background-color: #ffffff82; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: "diablo3";
+}
+@font-face {
+	font-family: 'diablo3';
+	src: url('./font/diablo.ttf') format('ttf'), 
+	url('./font/diablo.ttf') format('truetype');
+}
+.container{
+  max-width: 910px;
+  height: auto;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.51); 
+  border-radius:25px;
+}
+
+@font-face {
+	font-family: 'diablo3';
+	src: url('./font/diablo.ttf') format('ttf'), 
+	url('./font/diablo.ttf') format('truetype');
+}
+
+.formulario {overflow: auto; width: 90%;height:auto; margin:0 auto;text-align:center;background-color:rgba(33, 28, 22, 0.23137254901960785); border-radius: 10px;}
+.gato {width: 32px; height: 32px; display: inline-block; background-color:grey; background-image: linear-gradient(black, grey); border-radius: 10px;font-size: 30px;text-shadow: 0 2px 2px rgba(0,0,0,.5); color: #fff; text-align: center; vertical-align: middle; line-height: 30px; position: relative; top: -2px; }
+
+.form {font-size:20px;}
+
+.leaderboard {overflow: auto; width: 550px;height:auto; margin:0 auto;text-align:center;background-color:rgba(248, 248, 248, 0.5); border-radius: 10px 10px 0px 0px;}
+
+.perfil {overflow: auto; width: 660px;height:auto; margin:0 auto;text-align:center;background-color:rgba(33, 28, 22, 0.23137254901960785); border-radius: 10px;}
+.perfil .elites{ color:rgba(236, 179, 118, 0.7098039215686275);text-align: center; width: 220px; float: left; padding-top: 40px; background:url(./icons/statsf.png);  background-repeat: no-repeat; background-origin: content-box;}
+.perfil .kills{ color:rgba(236, 179, 118, 0.7098039215686275); text-align: center; width: 220px; float: left; padding-top: 40px;background:url(./icons/statsf.png);  background-repeat: no-repeat; background-origin: content-box;}
+.perfil .paragon{ color:rgba(236, 179, 118, 0.7098039215686275); text-align: center; width: 220px; float: left; padding-top: 40px;background:url(./icons/statsf.png);  background-repeat: no-repeat; background-origin: content-box;}
+
+.textHeroes{text-align:center; }
+
+.divi{background:url(./icons/hr.png);height:10px; }
+.heroes{overflow: auto; width: 100%;height:auto; margin:0 auto;text-align:initial;background-color:rgba(33, 28, 22, 0.23137254901960785); border-radius: 10px;}
+.heroes .heroe{text-align:justify; color:black;font-size:14px;width: 33%;height: 180px; font-weight: bold; float: left;}
+.heroes .heroeExtremo{text-align:justify; color:black;background-color:rgba(255, 0, 0, 0.1607843137254902);width: 33%;height: 180px;font-size:14px;font-weight: bold; float: left;}
+
+.bosses { overflow: auto; width: 600px; margin:0 auto; }
+.bosses .boss { text-align: center; width: 120px; float: left; padding-top: 135px;}
+.bosses .boss0 { background:url(./icons/act1L.png) no-repeat;}
+.bosses .boss1 { background:url(./icons/act2L.png) no-repeat;}
+.bosses .boss2 { background:url(./icons/act3L.png) no-repeat;}
+.bosses .boss3 { background:url(./icons/act4L.png) no-repeat;}
+.bosses .boss4 { background:url(./icons/act5L.png) no-repeat;}
+.bosses .boss0killed { background:url(./icons/act1.png) no-repeat;}
+.bosses .boss1killed { background:url(./icons/act2.png) no-repeat;}
+.bosses .boss2killed { background:url(./icons/act3.png) no-repeat;}
+.bosses .boss3killed { background:url(./icons/act4.png) no-repeat;}
+.bosses .boss4killed { background:url(./icons/act5.png) no-repeat;}
+
+.textArtesanos{text-align:center;}
+
+.pagina-artesanos {overflow: auto;}
+.artisan { display:block; float:left; padding:8px 0 0 65px; width:229px; height:90px; background:url(./icons/career-artisans.jpg) no-repeat; }
+.artisan.jeweler { background-position:-294px 0; }
+.artisan.mystic { background-position:-588px 0; }
+.artisan .title { display:block; color:#ad835a; font-size:18px; line-height:1.5em; margin-top:7px; margin-bottom:1px; }
+.artisan .level { display:block; color:#a99877; font-size:12px;  }
+.artisan .level.hardcore { color:#b10000; }
+.artisan .level .value { font-weight: bold; }
+
+input{border-radius:5px;background-color: rgb(191, 191, 191);font-family:diablo3;}
+input[name=id]{width: 99%;max-width: 300px;font-size:20px;}
+input[name=battletag]{width:80px;font-size:20px;}
+input[name=buscar]:hover{ background-color: rgb(150, 148, 148);cursor:pointer;}
+input[name=temporada]{width:80px;font-size:20px;}
+
+select{font-family:diablo3;width:200px;border-radius:5px;background-color: rgb(191, 191, 191);font-size:20px;}
+
+table, th, td {
+  border: 1px solid black;
+  }
+  @media all and (max-width : 999px) {
+	
+.clasificacion{display:none}
+	
+	
+	
+}
+  @media all and (max-width : 630px) {
+.formulario	.clasificacion{display:none}
+.perfil {width:100%}
+	
+	.perfil .kills {
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;  
+	background: url(./icons/statsf.png);
+	background-repeat: repeat; 
+	}
+		.perfil .elites {
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;  
+	background: url(./icons/statsf.png);
+	background-repeat: repeat; 
+	}
+		.perfil .paragon {
+	width: 100%;
+	padding-top: 0px;
+	padding-bottom: 0px;  
+	background: url(./icons/statsf.png);
+	background-repeat: repeat; 
+	}
+	
+	.bosses{width:100%}
+	.artisan{margin-left: 20%;}
+}

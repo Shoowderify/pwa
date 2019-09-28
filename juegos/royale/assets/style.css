@@ -1,0 +1,263 @@
+body{ 
+	font-family:"ClashRoyale";
+	background-image: url("fondo.jpg") ;
+	background-color: #ffffff82; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+@font-face {
+	font-family: 'ClashRoyale';
+	src: url('./font/Royale.x-font-ttf') format('ttf'),
+	url('./font/Royale.x-font-ttf') format('truetype');
+}
+input[type=submit]{font-family:ClashRoyale;border-radius:10px;}
+.botonf:hover { background-color: white;  box-shadow: 2px 5px;cursor:pointer;}
+.container{	
+	/*background-color:rgba(33, 28, 22, 0.23137254901960785);*/
+	background-color:rgba(199, 199, 199, 0.51);
+}
+
+a:link {
+	color: rgb(10, 18, 121);
+	text-decoration: none;
+}
+
+a:visited {
+	color: rgb(10, 18, 121);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(0, 57, 146);
+	text-decoration: none;
+}
+
+a:active {
+	color: rgb(10, 18, 121);
+	text-decoration: none;
+}
+.vs{display:none}
+.accordion {
+	font-family:"ClashRoyale";
+	background-color: rgba(61, 80, 115, 0.55);
+	color: #78c6ff;
+	cursor: pointer;
+	padding: 0px;
+	border: inset;
+	text-align: left;
+	outline: none;
+	font-size: 20px;
+	transition: 0.4s;
+}
+
+.active, .accordion:hover {
+	background-color: rgba(101, 0, 0, 0.4); 
+	color: #e23333;
+	border: outset;
+}
+
+.panel {
+  padding-top: 30px;
+  display: none;
+  background-color: rgba(255, 255, 255, 0);
+  overflow: hidden;
+}
+
+/*------FORMULARIO------*/
+
+.formulario {overflow: auto; width: 900px;height:auto; margin:0 auto;text-align:center;background-color:#211c163b; border-radius: 10px;}
+
+.formulario .tag {width: 400px;height:auto; margin:0 auto;text-align:center; border-radius: 10px;float:left;}
+.formulario .tag .imagen {width: 230px;height:260px;margin-top:10px;margin-bottom:40px;margin-left:65px;text-align:center; border-radius: 10px;float:left;}
+.formulario .clanf{width: 400px;height:auto; margin:0 auto;text-align:center; border-radius: 10px;float:right}
+.formulario .clanf .imagen {width: 270px;height:300px;margin-top:10px;margin-left:65px;text-align:center; border-radius: 10px;float:left;}
+
+.userlevel {width: 32px; height: 32px; display: inline-block; background: url(./icons/nivel.png) no-repeat 0 0; background-size: cover; font-size: 14px;text-shadow: 0 2px 2px rgba(0,0,0,.5); color: #fff; text-align: center; vertical-align: middle; line-height: 30px; top: -2px; }
+.gato {width: 32px; height: 32px; display: inline-block; background-color:grey; background-image: linear-gradient(black, grey); border-radius: 10px;font-size: 20px;text-shadow: 0 2px 2px rgba(0,0,0,.5); color: #fff; text-align: center; vertical-align: middle; line-height: 30px;top: -2px; }
+
+/*------PERFIL------*/
+
+.perfil {width: 100%;;height:auto; margin:0 auto;text-align:center;/*background-color:#211c163b;*/ border-radius: 10px;}
+.perfil .atras { width: 40px; float: left}
+.perfil .home { width: 40px; float: right}
+.perfil .info{ text-align: center; width: 33%; float: left; padding-top: 40px}
+.perfil .win{  text-align: center; width: 33%; float: left; padding-top: 40px}
+.perfil .arena{ text-align: center; width: 33%; float: left; padding-top: 40px}
+.perfil .arena .arena-text{padding-bottom:10px}
+.cofres {overflow: auto; width: 100%;height:auto; margin:0 auto;text-align:center;/*background-color:#211c163b;*/ border-radius: 10px;}
+.cofres .cofre{ text-align: center; float: left; background-repeat: no-repeat; background-origin: content-box;}
+
+.cartas {overflow: auto; width: 100%;height:auto; margin:0 auto;text-align:center;/*background-color:#211c163b;*/ border-radius: 10px;}
+.cartas .todas { text-align: center; width: 110px; float: left; background-repeat: no-repeat; background-origin: content-box;}
+.cartas .favorita { text-align: center; width: 100%; float: left; padding-top: 20px;}
+.cartas .mazo { text-align: center; width: 100%; float: left; padding-top: 20px;}
+.cartas .cartamazo { text-align: center; width: 110px; float: left; background-repeat: no-repeat; background-origin: content-box;}
+
+.estadisticas {overflow: auto; width: 100%;height:auto; margin:0 auto;text-align:center;/*background-color:#211c163b;*/ border-radius: 10px;}
+.estadisticas .challenge { text-align: justify; width: 45%; float: right; padding-top: 20px;}
+.estadisticas .batalla { text-align: justify; width: 45%; float: left; padding-top: 20px;padding-right:5%}
+
+/*------CLANES------*/
+
+
+.clan {overflow: auto; width: 900px;height:auto; margin:0 auto;text-align:center;/*background-color:#211c163b;*/ border-radius: 0px;}
+.clan .info{ text-align: center; width: 100%; float: left; padding-top: 40px}
+.clan .info .trofeo{margin-right:20px;margin-left:30%;width:100px;float:left}
+.clan .rank { text-align: center; width: 60px; float: left}
+.clan .nombre { text-align: center; width: 310px; float: left}
+.clan .nivel { text-align: center; width: 60px; float: left}
+.clan .liga { text-align: center; width: 100px; float: left}
+.clan .trofeos { text-align: center; width: 110px; float: left}
+.clan .donaciones { text-align: center; width: 120px; float: left}
+.clan .rol { text-align: center; width: 140px; float: left}
+.clan .atras { width: 40px; float: left}
+.clan .home { width: 40px; float: right}
+
+.miembros {overflow: auto; text-align:center; width: 99%;height:auto; margin:0 auto;background-color:#211c163b; border-radius: 10px;border-top: 1px solid #d6d6d6;}
+.miembros .info{ text-align: center; width: 90%; padding-top: 10px;float: left; padding-top: 40px}
+.miembros .rank { text-align: center; width: 6.6%;padding-top: 10px; float: left}
+.miembros .nombre { text-align: center; width: 34.4%; padding-top: 10px; float: left}
+.miembros .nivel { text-align: center; width: 6.6%; padding-top: 10px; float: left}
+.miembros .liga { text-align: center; width: 11.1%; padding-top: 10px; float: left}
+.miembros .trofeos { text-align: center; width: 12.2%; padding-top: 10px; float: left}
+.miembros .donaciones { text-align: center; width: 13.3%; padding-top: 10px; float: left}
+.miembros .rol { text-align: center; width: 140px;padding-top: 1.1%; float: left}
+.miembros:hover{ background-color:rgba(89, 208, 234, 0.3686274509803922);}
+
+/*HISTORIAL */
+
+.container .atras { width: 40px; float: left}
+.container .home { width: 40px; float: right}
+.historial {overflow: auto; width: 100%;height:auto; margin:0 auto;text-align:center;background-color:#211c163b; border-radius: 10px;}
+
+.partidas { text-align: center; width: 100%; float: left;border-top: 1px solid #d6d6d6;}
+.partidas .vs{ text-align: center; width: 50px; height:50px; margin-top: 4%; margin-left: 38%; position: absolute;font-size:30px;}
+/*.partidas .vs{ text-align: center; width: 50px; height:50px; margin-top: 80px; margin-left: 420px; position: absolute;}*/
+.team { text-align: center;  float: left;}
+.team .team1 { text-align: center; width:float: left;}
+.team .team1 .carta { text-align: center; width: 50px; float: left;}
+.team .team2 { text-align: center; float: left;padding-top:10px;}
+.team .team2 .carta { text-align: center; width: 50px; float: left;}
+.partidas .teamstats { text-align: center;  float: left;}
+
+
+.oponente { text-align: center; width: 200px; float: right;}
+.oponente .oponente1 { text-align: center;  float: right;}
+.oponente .oponente1 .carta { text-align: center; float: right;}
+.oponente .oponente2 { text-align: center;float: right;padding-top:10px;}
+.oponente .oponente2 .carta { text-align: center; width: 50px; float: right;}
+.oponente .teamstats { text-align: center; width: 500px; height:50px; margin-left: -500px; position: absolute;}
+.oponente .teamstats .team { text-align: right; }
+.oponente .teamstats .oponente { text-align: left; }
+
+.partidas .teamstats .teamstat{ float:left }
+
+.partidas .teamstats .oponentestat{ float:right }
+@media only screen
+and (min-width : 1000px) {
+
+.image-logo{ width:90px;height:90px}
+.menu-boton{display:none;}
+nav{display:none}
+.perfil .arena .image-arena{height:250px}
+.cofres .cofre {width:110px}
+.cartas .todas {width:110px}
+.cartas .mazo {width:100%}
+.team {width: 200px;}
+.team .team1 { width:200px;}
+.team .team1 .carta { width: 50px; }
+.team .team2 {  width: 200px;}
+.team .team2 .carta { width: 50px;}
+.partidas .teamstats { width: 60%;}
+
+
+.oponente { width: 200px; }
+.oponente .oponente1 {width:200px;}
+.oponente .oponente1 .carta { width: 50px; float: }
+.oponente .oponente2 { width: 200px;}
+.oponente .oponente2 .carta {width: 50px;}
+.oponente .teamstats { width: 500px; height:50px;}
+}
+
+@media only screen
+and (max-width : 999px) {
+	.mostrarhistorial{display:none}
+.formulario {
+   padding-top:50px;
+    width: 100%;
+   border-radius: 0px;
+}
+.formulario .tag {
+    width: 100%;
+
+}
+.formulario .clanf {
+    width: 100%;
+
+}
+.formulario .tag .imagen {
+    width: 100px;
+    height: 120px;
+    margin-left: 40%;
+}
+.formulario .clanf .imagen {
+    width: 100px;
+    height: 120px;
+    margin-left: 40%;
+}
+.perfil .info{font-size:12px:}
+.perfil .win{font-size:12px:}
+.perfil .win #donut_single{display:none}
+.perfil .arena .image-arena{height:50px;padding-top:10px;}
+
+.perfil h1{margin-top:0px}
+.cofres .cofre{width:33%}
+
+.cartas .todas {width:33%}
+.cartas .mazo .cartamazo{width:33%}
+
+.clan {width: 100%; background-color: rgba(255, 255, 255, 0.33);}
+.clan .rank{display:none}
+.clan .nombre{width: 50%;}
+.clan .nivel{width: 12%;}
+.clan .liga{width: 12%;padding-left: 10px;}
+.clan .trofeos{width: 20%;}
+.clan .donaciones{display:none}
+.clan .rol{display:none}
+
+.team { width:100px;}
+.team .team1 { width:100px;}
+.team .team1 .carta { width: 50px; }
+.team .team2 {  width: 100px;}
+.team .team2 .carta { width: 50px;}
+
+.partidas  {min-width: 360px;}
+.partidas .teamstats { width: 40%;padding-top: 10%;}
+.partidas .teamstats .teamstat{  width:1px;
+    word-wrap: break-word;
+	display: inline-block;
+    float: left;}
+	.partidas .teamstats .oponentestat{  width:1px;
+    word-wrap: break-word;
+    display: inline-block;
+    float: right;	}
+ 
+
+.oponente { width: 30%; }
+.oponente .oponente1 {width:100px;}
+.oponente .oponente1 .carta { width: 50px; float: }
+.oponente .oponente2 { width: 100px;}
+.oponente .oponente2 .carta {width: 50px;}
+}
+@media only screen
+and (min-width : 520px) and (max-width : 700px) {
+	.partidas .teamstats { width: 50%;padding-top: 10%;}
+
+}
+@media only screen
+and (min-width : 700px) and (max-width : 999px) {
+	.partidas .teamstats { width: 55%;padding-top: 10%;}
+
+}

@@ -1,0 +1,475 @@
+
+@font-face {
+	font-family: 'main';
+	src: url('./font/main.ttf') format('ttf'), 
+	url('./font/main.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'ClashRoyale';
+	src: url('./font/Royale.x-font-ttf') format('ttf'),
+	url('./font/Royale.x-font-ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'overwatch';
+	src: url('./font/big_noodle_titling_oblique.ttf') format('ttf'), 
+	url('./font/big_noodle_titling_oblique.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'diablo3';
+	src: url('./font/diablo.ttf') format('ttf'), 
+	url('./font/diablo.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'wow';
+	src: url('./font/wow.ttf') format('ttf'), 
+	url('./font/wow.ttf') format('truetype');
+}
+.hola {
+    overflow: hidden;
+}
+body{background-color: #000;}
+@media only screen
+and (min-width : 1000px) {
+	
+	body{ 
+	/*background-image: url("fondo.jpg") ;
+	background-color: #ffffff82; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+*/
+	background: url(./img/fondo.jpg) ;
+	background-size:cover;
+}
+.container{
+	
+	max-width: 1024px;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+	/*background-color:rgba(33, 28, 22, 0.23137254901960785);*/
+	background-color:rgba(0, 0, 0, 0.5);
+	border-radius:25px;
+	overflow: auto;
+
+}
+#header{
+	
+	width: 1024px;
+	height: 200px;
+	/*background-color:rgba(33, 28, 22, 0.23137254901960785);*/
+	border-radius:25px;
+	display: inline-block;
+	background: url(./img/header2.png)  no-repeat 50% 0;
+	background-size: cover ;
+	vertical-align: middle; line-height: 250px; position: relative; top: -1px; 
+	background-size: 1024px 150px;
+}
+
+.logo {
+	left: 460px;
+	display: block;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	top: -50px;
+}
+.image-logo{ width:90px;height:90px}
+.menu {
+    font-family: "main";
+    width: auto;
+    height: 32px;
+    /* display: inline-block; */
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    position: relative;
+    top: -20px;
+    left: 8%;
+	float:left;
+	margin-left:20px;
+ }
+  .menu:hover{
+    color:#00c2ff;
+ }
+ .menu-boton{display:none;}
+ nav{display:none}
+ /*
+.menu-overwatch {
+	font-family:"overwatch";
+	color: white;
+	float:left;
+}
+.menu-overwatch:hover{
+	color:#d67c1e;
+  background-color: #ffffff52;
+}
+*/
+
+.links {
+	border-radius: 100px;        
+	display:inline-block;
+	width: 28%;
+	height: 28%; 
+	margin-left:30px;
+	margin-bottom:30px;
+}
+	
+ .juego {
+	width: 250px;
+	height: 250px;
+	float:left;	
+ }
+ 
+ .juego .image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	backface-visibility: hidden;
+	border-radius:100px;
+}
+
+.juego .middle {
+	text-align: center;
+	display: block;
+	position: relative;
+	top: -150px;
+	left: 25px;
+	opacity: 0;
+	width:200px;
+	}
+	
+.juego:hover .image {
+	opacity: 0.3;
+	transition: .5s ease;
+	
+}
+
+.juego:hover .middle {
+	opacity: 1;
+	transition: .5s ease;
+}
+.text {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+}
+.text-starcraft{
+	font-family:"overwatch";
+	background-color: #6594fd;
+	color: white;
+	font-size: 25px;
+	padding: 16px 32px;
+	border-radius:10px;
+	background-image: linear-gradient(#6594fd, #0c57ff);
+}
+.text-lol{
+	font-family:"lol";
+	background-color: #dc7541;
+	color: white;
+	font-size: 25px;
+	padding: 16px 32px;
+	border-radius:10px;
+	background-image: linear-gradient(#dc7541, #542c17);
+}
+.text-wow{
+	font-family:"wow";
+	background-color: #834f11;
+	color: white;
+	font-size: 25px;
+	padding: 16px 32px;
+	border-radius:10px;
+	background-image: linear-gradient(#e69534, #673e0d);
+}
+.text-overwatch{
+	font-family:"overwatch";
+	background-color: #d67c1e;
+	color: white;
+	font-size: 25px;
+	padding: 16px 32px;
+	border-radius:10px;
+	background-image: linear-gradient(#e6841d, #9e5b15);
+}
+.text-diablo3 {
+	font-family:"diablo3";
+	background-color: #34384a;
+	color: white;
+	font-size: 20px;
+	padding: 16px 32px;
+	border-radius:10px;
+	background-image: linear-gradient(#777880, #34384a);
+}
+.text-clashroyale {
+	font-family:"ClashRoyale";
+	background-color: #0c2bb5;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+	border-radius:10px;	
+	background-image: linear-gradient(#4768fb, #0c2284);
+}
+
+ul, ol {
+	list-style:none;
+}
+
+.nav > li {
+	float:left;
+}
+
+.nav li a {
+	background-color:#000;
+	color:#fff;
+	text-decoration:none;
+
+	display:block;
+}
+
+.nav li a:hover {
+	background-color:#434343;
+}
+
+.nav li ul {
+	display:none;
+	position:absolute;
+	min-width:140px;
+}
+
+.nav li:hover > ul {
+	display:block;
+}
+
+.nav li ul li {
+	position:relative;
+}
+
+.nav li ul li ul {
+	right:-140px;
+	top:0px;
+}
+
+}
+
+
+
+
+.menu_bar {
+	display:none;
+}
+ #header nav {
+	width:90%;
+	max-width:1000px;
+    margin: 11.6% auto;	
+	background:#024959;
+	background: #5a5961;
+	
+}
+#header nav ul {
+	overflow:hidden;
+	list-style:none;
+}
+ 
+#header nav ul li {
+	float:left;
+}
+ 
+#header nav ul li a {
+	color:#fff;
+	padding:2%;
+	display:block;
+	text-decoration:none;
+}
+ 
+#header nav ul li span {
+	margin-right:10px;
+}
+ 
+
+#header nav ul li a:active {
+	background:#000;
+}
+ 
+section {
+	padding:20px;
+}
+
+
+@media all
+and (max-width : 999px) {
+body {
+ background: url(./img/fondo.jpg) #000 ; 
+ padding: 0px;
+    margin: 0px;
+}
+.container{
+	
+	max-width: 999px;
+	height: auto;
+	margin: auto;
+	/*background-color:rgba(33, 28, 22, 0.23137254901960785);*/
+	background-color:rgba(0, 0, 0, 0.5);
+	border-radius:5px;
+	overflow: auto;
+
+}
+
+#header{
+
+	width: 100%;
+	overflow:auto;
+	background-color:rgba(173, 173, 173, 0.33);
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
+  
+}
+
+.sticky + .juegos {
+  padding-top: 42px;
+}
+.logo {
+	display: block;
+	width: 10%;
+	float:left;
+}
+.image-logo{ width:100%;height:100%}
+
+.menu-boton {
+	display: block;
+	width: 10%;
+	float: right;
+}
+.image-boton {
+    width: 100%;
+    height: 100%;
+
+}
+
+  .menu-boton:hover{
+    color:#00c2ff;
+ }
+#header nav {
+width: 90%;
+    height: 100%;
+    left: -100%;
+    /* margin: 0; */
+    position: fixed;
+
+}
+
+#header nav ul li {
+	display:block;
+float: none;
+	border-bottom:1px solid rgba(255,255,255, .3);
+}
+
+
+
+.menu-boton .bt-menu {
+	/* display: block; */
+/* padding: 20px; */
+
+float: right;
+color: #fff;
+/* text-decoration: none; */
+font-weight: bold;
+font-size: 25px;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+.menu-boton span {
+	float:right;
+	font-size:40px;
+}
+
+.link-menu{display:none}
+.juego {
+	width: 30%;
+    float: left;
+    margin-right: 5%;
+    margin-left: 10%;
+    margin-top: 5%;
+ }
+ 
+.juego .image {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+
+.juego .middle {
+    text-align: center;
+    display: block;
+	height: 50px;
+	}
+.text {
+	background-color: #4CAF50;
+	color: white;
+	font-size: 16px;
+	padding: 16px 32px;
+}
+.text-starcraft{
+	font-family:"overwatch";
+	background-color: #6594fd;
+	color: white;
+	font-size: 20px;
+	border-radius:10px;
+	background-image: linear-gradient(#6594fd, #0c57ff);
+}
+.text-lol{
+	font-family:"lol";
+	background-color: #dc7541;
+	color: white;
+    font-size: 20px;
+	border-radius:10px;
+	background-image: linear-gradient(#dc7541, #542c17);
+}
+.text-wow{
+	font-family:"wow";
+	background-color: #834f11;
+	color: white;
+	font-size: 20px;
+	border-radius:20px;
+	background-image: linear-gradient(#e69534, #673e0d);
+}
+.text-overwatch{
+	font-family:"overwatch";
+	background-color: #d67c1e;
+	color: white;
+	font-size: 20px;
+	border-radius:10px;
+	background-image: linear-gradient(#e6841d, #9e5b15);
+}
+.text-diablo3 {
+	font-family:"diablo3";
+	background-color: #34384a;
+	color: white;
+	font-size: 20px;
+	border-radius:20px;
+	background-image: linear-gradient(#777880, #34384a);
+}
+.text-clashroyale {
+	font-family:"ClashRoyale";
+	background-color: #0c2bb5;
+	color: white;
+	font-size: 20px;
+	border-radius:10px;	
+	background-image: linear-gradient(#4768fb, #0c2284);
+}
+
+}
+
+ 
+
+ 

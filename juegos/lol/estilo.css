@@ -1,0 +1,87 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+
+body  {
+    background-image: url("lol.jpg");
+    background-size: cover;
+    background-color: #cccccc;
+}
+
+#todo {
+
+    /*background-image: url("j.jpg");*/
+    margin: 0 auto;
+    /*background-repeat: no-repeat;
+    background-size: contain;*/
+    background: #E6E6E6;
+    width: 50%;
+    height: 400px;
+    box-shadow: 0 0 10px 2px #0B0B3B;
+    border: 5px solid #0B0B3B;
+    border-radius: 50px;
+    /*margin: 0px 0px 0px 400px;*/ 
+}
+
+#form {
+    /*margin: 0px 0px 0px 60px;*/
+    font-size:20px;
+    /*color:white;*/
+    display: flex;
+    justify-content: center;
+    padding: 45px 0 0 55px;
+}
+
+#form label, input, select{
+    font-size: 35px;
+    margin:5px;
+}
+
+#resultados {
+    width: 300px;
+    height: 50px;
+    margin:150px 0px 0px 0px;
+    float:left;
+    
+}
+.resultados {
+    font-size:20px;
+    color:white;
+    padding: 0px 0px 0px 10px;
+}
+#imagen {
+    width: 100px;
+    height:100px;
+    margin: 100px 0px 0px 0px;
+
+    
+    float:right;
+}
+
+/**************************************/
+
+header
+{
+	width: 100%;
+	height:75px;
+	overflow: hidden;
+	background: #0B0719;
+    margin-bottom: 110px;
+    color:white;
+	z-index:100;
+	-o-z-index:100;
+	border-bottom: solid 1px #0B0719;
+}
+
+#buscador{
+    background: orange;
+    padding:10px;
+    margin-top: 10px;
+}
+
+#buscador:hover{
+    background: #F7D358;
+    color: white; 
+}

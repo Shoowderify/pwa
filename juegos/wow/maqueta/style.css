@@ -1,0 +1,47 @@
+body{ 
+	/*font-family:"ClashRoyale";*/
+	background-image: url("fondo1.jpg") ;
+	background-color: #000; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+/*@font-face {
+ font-family: 'ClashRoyale';
+  src: url('./font/Royale.x-font-ttf') format('ttf'), 
+   url('./font/Royale.x-font-ttf') format('truetype');
+}
+*/
+.container{
+	
+	max-width: 910px;
+	height: auto;
+	margin: auto;
+	padding: 10px;
+	background-color: rgba(199, 199, 199, 0.26);
+	border-radius:25px;
+}
+
+.container1{
+	float:left;
+	max-width: 550px;
+	height: auto;
+	margin:10px 40px 10px 40px;
+	padding: 10px;
+	text-align:center;
+	background-color: #ffffff82; 
+	border-radius:25px;
+  }
+  
+  .container2{
+	float:left;
+	text-align:center;
+	max-width: 550px;
+	height: auto;
+	margin:10px 0px 10px 40px;
+	padding: 10px;
+	background-color: #ffffff82; 
+	border-radius:25px;
+  }
